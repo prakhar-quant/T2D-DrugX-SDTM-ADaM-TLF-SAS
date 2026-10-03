@@ -178,30 +178,6 @@ Statistics in sections 7 and 8 other than the t-test and ANCOVA values were calc
 ## SAS procedures and skills demonstrated
 
 `PROC IMPORT` · `DATA` step · `MERGE` / `PROC SORT` · `PROC CONTENTS` · `PROC MEANS` · `PROC FREQ` · `PROC TTEST` · `PROC GLM` · `PROC PRINT` · `PROC SGPLOT` · `PROC EXPORT` · `ODS RTF` · SAS macro variables and libraries
-
-## Repository structure
-
-```
-T2D-DrugX-SDTM-ADaM-TLF-SAS/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── data/
-│   ├── raw/            DM.csv, EX.csv, LB.csv
-│   ├── sdtm/           dm.sas7bdat, ex.sas7bdat, lb.sas7bdat
-│   └── adam/           adsl.sas7bdat, adlb.sas7bdat
-├── programs/
-│   └── drugx_t2d_pipeline.sas
-├── output/
-│   ├── Table_Glucose_Wk12.rtf
-│   ├── SUMMARY_TABLE.csv
-│   ├── LISTING.csv
-│   └── Fig_Glucose_Change.png
-├── figures/            report figures (PNG)
-└── report/
-    └── DrugX_T2D_Statistical_Report.docx
-```
-
 ## How to run
 
 1. Open SAS Studio (SAS OnDemand for Academics is free).
